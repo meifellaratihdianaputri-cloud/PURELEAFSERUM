@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pureleaf Radiant Serum</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="leaf-bg" onload="checkLogin()">
+
+<header class="hero glass">
+    <div class="header-top">
+        <h1>Pureleaf Radiant Serum</h1>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+    <p>Natural Skincare • Digital Marketing</p>
+</header>
+
+<section class="product glass">
+    <div class="product-image">
+        <img id="productImg" src="default.jpg" alt="Pureleaf Radiant Serum">
+        <input type="file" accept="image/*" onchange="changeImage(event)">
+    </div>
+
+    <div class="product-info">
+        <h2>🌿 Deskripsi Produk</h2>
+        <p>
+            Pureleaf Radiant Serum adalah produk perawatan kulit berbahan alami
+            yang dirancang untuk membantu mencerahkan, melembapkan, dan menjaga
+            kesehatan kulit wajah. Serum ini memiliki tekstur ringan, cepat
+            menyerap, dan nyaman digunakan setiap hari.
+        </p>
+
+        <h2>💰 Harga</h2>
+        <p class="price">Rp 40.000</p>
+
+        <h2>📢 Digital Marketing</h2>
+        <p>
+            Strategi pemasaran dilakukan melalui media sosial seperti Instagram
+            dan TikTok dengan pendekatan edukatif, review pengguna, serta
+            kolaborasi dengan influencer kecantikan.
+        </p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
